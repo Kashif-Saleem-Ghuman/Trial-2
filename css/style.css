@@ -6,6 +6,9 @@
     font-size: small;
 }
 #nav-bar {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     position: fixed;
     min-width: 290px;
     top: 0px;
@@ -60,4 +63,24 @@ code {
     border-radius: 6px;
     margin: 20px;
     padding: 20px;
+}
+#nav-bar header{
+font-size: 1.25vw;
+text-align: center;
+font-weight: bold;
+padding: 10px;
+border-bottom: 1px solid black ;
+width: 100%;
+}
+#nav-bar ul,#nav-bar a{
+list-style: none;
+color: #4d4e53;
+text-decoration: none;
+width: 100%;
+}
+#nav-bar li{
+    border-bottom: 1px solid black;
+    padding: 20px;
+    width: 100%;
+
 }
